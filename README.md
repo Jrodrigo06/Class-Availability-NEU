@@ -34,8 +34,11 @@ This project scrapes the Northeastern University course page for a specific clas
     ```bash
     pip install -r requirements.txt
     ```
-
-5. Create a `.env` file to store your email credentials:
+5. Adjust the URL:
+    ```
+    URL = "https://bnrodsp.neu.edu/...
+    ```
+6. Create a `.env` file to store your email credentials:
     ```plaintext
     EMAIL_SUBJECT="Class Availability Notification"
     EMAIL_FROM="your-email@gmail.com"
